@@ -1,0 +1,1 @@
+include ':movies-mvp', ':movies-mvvm', ':movies-mvi'
