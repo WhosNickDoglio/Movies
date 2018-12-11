@@ -1,14 +1,13 @@
-import com.android.build.gradle.LibraryExtension
 import com.nicholasdoglio.buildsrc.App
 import com.nicholasdoglio.buildsrc.Libs
 
-apply {
-    plugin("com.android.library")
-    plugin("org.jetbrains.kotlin.android")
-    plugin("org.jetbrains.kotlin.kapt")
+plugins {
+    id("com.android.library")
+    kotlin("android")
+    kotlin("kapt")
 }
 
-configure<LibraryExtension> {
+android {
     compileSdkVersion(App.compileSdk)
     defaultConfig {
         minSdkVersion(App.minSdk)
@@ -32,14 +31,6 @@ configure<LibraryExtension> {
 }
 
 dependencies {
-    val implementation by configurations
-    val testImplementation by configurations
-    val androidTestImplementation by configurations
-
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
-    implementation(Libs.kotlin_stdlib_jdk8)
-    implementation(Libs.appcompat_v7)
-    testImplementation(Libs.junit)
-    androidTestImplementation(Libs.com_android_support_test_runner)
-    androidTestImplementation(Libs.espresso_core)
+    implementation(Libs.org_jetbrains_kotlin_kotlin_stdlib_jdk8)
 }

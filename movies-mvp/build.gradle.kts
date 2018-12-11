@@ -1,5 +1,5 @@
-import com.nicholasdoglio.buildsrc.Libs
 import com.nicholasdoglio.buildsrc.App
+import com.nicholasdoglio.buildsrc.Libs
 
 plugins {
     id("com.android.application")
@@ -16,7 +16,7 @@ android {
         targetSdkVersion(App.targetSdk)
         versionCode = App.versionCode
         versionName = App.versionName
-        testInstrumentationRunner = "android.support.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         getByName("release") {
@@ -33,10 +33,10 @@ android {
 
 dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
-    implementation(Libs.kotlin_stdlib_jdk8)
-    implementation(Libs.appcompat_v7)
-    implementation(Libs.constraint_layout)
+    implementation(Libs.org_jetbrains_kotlin_kotlin_stdlib_jdk8)
+    implementation(Libs.appcompat)
+    implementation(Libs.constraintlayout)
     testImplementation(Libs.junit)
-    androidTestImplementation(Libs.com_android_support_test_runner)
+    androidTestImplementation(Libs.androidx_test_runner)
     androidTestImplementation(Libs.espresso_core)
 }

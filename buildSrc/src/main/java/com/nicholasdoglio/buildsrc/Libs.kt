@@ -8,23 +8,22 @@ package com.nicholasdoglio.buildsrc
  * to update this file */
 object Libs {
     /**
-     * [constraint-layout website](http://tools.android.com) */
-    const val constraint_layout: String =
-        "com.android.support.constraint:constraint-layout:" + Versions.constraint_layout
+     * [appcompat website](http://developer.android.com/tools/extras/support-library.html) */
+    const val appcompat: String = "androidx.appcompat:appcompat:" + Versions.appcompat
+
+    /**
+     * [constraintlayout website](http://tools.android.com) */
+    const val constraintlayout: String =
+        "androidx.constraintlayout:constraintlayout:" + Versions.constraintlayout
 
     /**
      * [espresso-core website](https://developer.android.com/testing) */
     const val espresso_core: String =
-        "com.android.support.test.espresso:espresso-core:" + Versions.espresso_core
+        "androidx.test.espresso:espresso-core:" + Versions.espresso_core
 
     /**
      * [runner website](https://developer.android.com/testing) */
-    const val com_android_support_test_runner: String =
-        "com.android.support.test:runner:" + Versions.com_android_support_test_runner
-
-    /**
-     * [appcompat-v7 website](http://developer.android.com/tools/extras/support-library.html) */
-    const val appcompat_v7: String = "com.android.support:appcompat-v7:" + Versions.appcompat_v7
+    const val androidx_test_runner: String = "androidx.test:runner:" + Versions.androidx_test_runner
 
     /**
      * [gradle website](https://developer.android.com/studio) */
@@ -48,35 +47,36 @@ object Libs {
     /**
      * [kotlin-android-extensions website](https://kotlinlang.org/) */
     const val kotlin_android_extensions: String =
-        "org.jetbrains.kotlin:kotlin-android-extensions:" + Versions.org_jetbrains_kotlin
+        "org.jetbrains.kotlin:kotlin-android-extensions:" + Versions.kotlin_android_extensions
 
     /**
      * [kotlin-annotation-processing-gradle website](https://kotlinlang.org/) */
     const val kotlin_annotation_processing_gradle: String =
-        "org.jetbrains.kotlin:kotlin-annotation-processing-gradle:" + Versions.org_jetbrains_kotlin
+        "org.jetbrains.kotlin:kotlin-annotation-processing-gradle:" + Versions.kotlin_annotation_processing_gradle
 
     /**
      * [kotlin-gradle-plugin website](https://kotlinlang.org/) */
     const val kotlin_gradle_plugin: String =
-        "org.jetbrains.kotlin:kotlin-gradle-plugin:" + Versions.org_jetbrains_kotlin
+        "org.jetbrains.kotlin:kotlin-gradle-plugin:" + Versions.kotlin_gradle_plugin
 
     /**
      * [kotlin-reflect website](https://kotlinlang.org/) */
     const val kotlin_reflect: String =
-        "org.jetbrains.kotlin:kotlin-reflect:" + Versions.org_jetbrains_kotlin
+        "org.jetbrains.kotlin:kotlin-reflect:" + Versions.kotlin_reflect
 
     /**
      * [kotlin-sam-with-receiver website](https://kotlinlang.org/) */
     const val kotlin_sam_with_receiver: String =
-        "org.jetbrains.kotlin:kotlin-sam-with-receiver:" + Versions.org_jetbrains_kotlin
+        "org.jetbrains.kotlin:kotlin-sam-with-receiver:" + Versions.kotlin_sam_with_receiver
 
     /**
      * [kotlin-scripting-compiler-embeddable website](https://kotlinlang.org/) */
     const val kotlin_scripting_compiler_embeddable: String =
-        "org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:" + Versions.org_jetbrains_kotlin
+        "org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:" + Versions.kotlin_scripting_compiler_embeddable
 
     /**
      * [kotlin-stdlib-jdk8 website](https://kotlinlang.org/) */
-    const val kotlin_stdlib_jdk8: String =
-        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:" + Versions.org_jetbrains_kotlin
+    const val org_jetbrains_kotlin_kotlin_stdlib_jdk8: String =
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:" + Versions.org_jetbrains_kotlin_kotlin_stdlib_jdk8
 }
+
