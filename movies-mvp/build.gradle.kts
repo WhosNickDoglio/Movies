@@ -1,5 +1,3 @@
-import com.nicholasdoglio.buildsrc.App
-import com.nicholasdoglio.buildsrc.Libs
 
 plugins {
     id("com.android.application")
