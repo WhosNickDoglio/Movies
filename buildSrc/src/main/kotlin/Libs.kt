@@ -4,80 +4,80 @@
  * Update this file with
  *   `$ ./gradlew buildSrcVersions` */
 object Libs {
-  /**
-   * http://developer.android.com/tools/extras/support-library.html */
-  const val appcompat: String = "androidx.appcompat:appcompat:" + Versions.appcompat
+    /**
+     * http://developer.android.com/tools/extras/support-library.html */
+    const val appcompat: String = "androidx.appcompat:appcompat:" + Versions.appcompat
 
-  /**
-   * http://tools.android.com */
-  const val constraintlayout: String = "androidx.constraintlayout:constraintlayout:" +
-      Versions.constraintlayout
+    /**
+     * http://tools.android.com */
+    const val constraintlayout: String = "androidx.constraintlayout:constraintlayout:" +
+        Versions.constraintlayout
 
-  /**
-   * https://developer.android.com/testing */
-  const val espresso_core: String = "androidx.test.espresso:espresso-core:" +
-      Versions.espresso_core
+    /**
+     * https://developer.android.com/testing */
+    const val espresso_core: String = "androidx.test.espresso:espresso-core:" +
+        Versions.espresso_core
 
-  /**
-   * https://developer.android.com/testing */
-  const val androidx_test_runner: String = "androidx.test:runner:" + Versions.androidx_test_runner
+    /**
+     * https://developer.android.com/testing */
+    const val androidx_test_runner: String = "androidx.test:runner:" + Versions.androidx_test_runner
 
-  /**
-   * https://developer.android.com/studio */
-  const val com_android_tools_build_gradle: String = "com.android.tools.build:gradle:" +
-      Versions.com_android_tools_build_gradle
+    /**
+     * https://developer.android.com/studio */
+    const val com_android_tools_build_gradle: String = "com.android.tools.build:gradle:" +
+        Versions.com_android_tools_build_gradle
 
-  /**
-   * https://developer.android.com/studio */
-  const val lint_gradle: String = "com.android.tools.lint:lint-gradle:" + Versions.lint_gradle
+    /**
+     * https://developer.android.com/studio */
+    const val lint_gradle: String = "com.android.tools.lint:lint-gradle:" + Versions.lint_gradle
 
-  const val de_fayard_buildsrcversions_gradle_plugin: String =
-    "de.fayard.buildSrcVersions:de.fayard.buildSrcVersions.gradle.plugin:" +
-        Versions.de_fayard_buildsrcversions_gradle_plugin
+    const val de_fayard_buildsrcversions_gradle_plugin: String =
+        "de.fayard.buildSrcVersions:de.fayard.buildSrcVersions.gradle.plugin:" +
+            Versions.de_fayard_buildsrcversions_gradle_plugin
 
-  /**
-   * http://junit.org */
-  const val junit: String = "junit:junit:" + Versions.junit
+    /**
+     * http://junit.org */
+    const val junit: String = "junit:junit:" + Versions.junit
 
-  const val org_gradle_kotlin_kotlin_dsl_gradle_plugin: String =
-    "org.gradle.kotlin.kotlin-dsl:org.gradle.kotlin.kotlin-dsl.gradle.plugin:" +
-        Versions.org_gradle_kotlin_kotlin_dsl_gradle_plugin
+    const val org_gradle_kotlin_kotlin_dsl_gradle_plugin: String =
+        "org.gradle.kotlin.kotlin-dsl:org.gradle.kotlin.kotlin-dsl.gradle.plugin:" +
+            Versions.org_gradle_kotlin_kotlin_dsl_gradle_plugin
 
-  /**
-   * https://kotlinlang.org/ */
-  const val kotlin_android_extensions: String =
-    "org.jetbrains.kotlin:kotlin-android-extensions:" + Versions.kotlin_android_extensions
+    /**
+     * https://kotlinlang.org/ */
+    const val kotlin_android_extensions: String =
+        "org.jetbrains.kotlin:kotlin-android-extensions:" + Versions.kotlin_android_extensions
 
-  /**
-   * https://kotlinlang.org/ */
-  const val kotlin_annotation_processing_gradle: String =
-    "org.jetbrains.kotlin:kotlin-annotation-processing-gradle:" +
-        Versions.kotlin_annotation_processing_gradle
+    /**
+     * https://kotlinlang.org/ */
+    const val kotlin_annotation_processing_gradle: String =
+        "org.jetbrains.kotlin:kotlin-annotation-processing-gradle:" +
+            Versions.kotlin_annotation_processing_gradle
 
-  /**
-   * https://kotlinlang.org/ */
-  const val kotlin_gradle_plugin: String = "org.jetbrains.kotlin:kotlin-gradle-plugin:" +
-      Versions.kotlin_gradle_plugin
+    /**
+     * https://kotlinlang.org/ */
+    const val kotlin_gradle_plugin: String = "org.jetbrains.kotlin:kotlin-gradle-plugin:" +
+        Versions.kotlin_gradle_plugin
 
-  /**
-   * https://kotlinlang.org/ */
-  const val kotlin_reflect: String = "org.jetbrains.kotlin:kotlin-reflect:" +
-      Versions.kotlin_reflect
+    /**
+     * https://kotlinlang.org/ */
+    const val kotlin_reflect: String = "org.jetbrains.kotlin:kotlin-reflect:" +
+        Versions.kotlin_reflect
 
-  /**
-   * https://kotlinlang.org/ */
-  const val kotlin_sam_with_receiver: String = "org.jetbrains.kotlin:kotlin-sam-with-receiver:" +
-      Versions.kotlin_sam_with_receiver
+    /**
+     * https://kotlinlang.org/ */
+    const val kotlin_sam_with_receiver: String = "org.jetbrains.kotlin:kotlin-sam-with-receiver:" +
+        Versions.kotlin_sam_with_receiver
 
-  /**
-   * https://kotlinlang.org/ */
-  const val kotlin_scripting_compiler_embeddable: String =
-    "org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:" +
-        Versions.kotlin_scripting_compiler_embeddable
+    /**
+     * https://kotlinlang.org/ */
+    const val kotlin_scripting_compiler_embeddable: String =
+        "org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:" +
+            Versions.kotlin_scripting_compiler_embeddable
 
-  /**
-   * https://kotlinlang.org/ */
-  const val org_jetbrains_kotlin_kotlin_stdlib_jdk8: String =
-    "org.jetbrains.kotlin:kotlin-stdlib-jdk8:" +
-        Versions.org_jetbrains_kotlin_kotlin_stdlib_jdk8
+    /**
+     * https://kotlinlang.org/ */
+    const val org_jetbrains_kotlin_kotlin_stdlib_jdk8: String =
+        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:" +
+            Versions.org_jetbrains_kotlin_kotlin_stdlib_jdk8
 }
