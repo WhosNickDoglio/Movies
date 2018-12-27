@@ -32,7 +32,7 @@ object Libs {
     const val lint_gradle: String = "com.android.tools.lint:lint-gradle:" + Versions.lint_gradle
 
     const val de_fayard_buildsrcversions_gradle_plugin: String =
-        "de.fayard.buildSrcVersions:de.fayard.buildSrcVersions.gradle.plugin:" +
+      "de.fayard.buildSrcVersions:de.fayard.buildSrcVersions.gradle.plugin:" +
             Versions.de_fayard_buildsrcversions_gradle_plugin
 
     /**
@@ -40,44 +40,43 @@ object Libs {
     const val junit: String = "junit:junit:" + Versions.junit
 
     const val org_gradle_kotlin_kotlin_dsl_gradle_plugin: String =
-        "org.gradle.kotlin.kotlin-dsl:org.gradle.kotlin.kotlin-dsl.gradle.plugin:" +
+      "org.gradle.kotlin.kotlin-dsl:org.gradle.kotlin.kotlin-dsl.gradle.plugin:" +
             Versions.org_gradle_kotlin_kotlin_dsl_gradle_plugin
 
     /**
      * https://kotlinlang.org/ */
     const val kotlin_android_extensions: String =
-        "org.jetbrains.kotlin:kotlin-android-extensions:" + Versions.kotlin_android_extensions
+      "org.jetbrains.kotlin:kotlin-android-extensions:" + Versions.org_jetbrains_kotlin
 
     /**
      * https://kotlinlang.org/ */
     const val kotlin_annotation_processing_gradle: String =
-        "org.jetbrains.kotlin:kotlin-annotation-processing-gradle:" +
-            Versions.kotlin_annotation_processing_gradle
+      "org.jetbrains.kotlin:kotlin-annotation-processing-gradle:" +
+          Versions.org_jetbrains_kotlin
 
     /**
      * https://kotlinlang.org/ */
     const val kotlin_gradle_plugin: String = "org.jetbrains.kotlin:kotlin-gradle-plugin:" +
-        Versions.kotlin_gradle_plugin
+        Versions.org_jetbrains_kotlin
 
     /**
      * https://kotlinlang.org/ */
     const val kotlin_reflect: String = "org.jetbrains.kotlin:kotlin-reflect:" +
-        Versions.kotlin_reflect
+        Versions.org_jetbrains_kotlin
 
     /**
      * https://kotlinlang.org/ */
     const val kotlin_sam_with_receiver: String = "org.jetbrains.kotlin:kotlin-sam-with-receiver:" +
-        Versions.kotlin_sam_with_receiver
+        Versions.org_jetbrains_kotlin
 
     /**
      * https://kotlinlang.org/ */
     const val kotlin_scripting_compiler_embeddable: String =
-        "org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:" +
-            Versions.kotlin_scripting_compiler_embeddable
+      "org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable:" +
+          Versions.org_jetbrains_kotlin
 
     /**
      * https://kotlinlang.org/ */
-    const val org_jetbrains_kotlin_kotlin_stdlib_jdk8: String =
-        "org.jetbrains.kotlin:kotlin-stdlib-jdk8:" +
-            Versions.org_jetbrains_kotlin_kotlin_stdlib_jdk8
+    const val kotlin_stdlib_jdk8: String = "org.jetbrains.kotlin:kotlin-stdlib-jdk8:" +
+        Versions.org_jetbrains_kotlin
 }

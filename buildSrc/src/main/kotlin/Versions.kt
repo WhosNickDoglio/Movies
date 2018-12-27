@@ -23,19 +23,7 @@ object Versions {
 
     const val org_gradle_kotlin_kotlin_dsl_gradle_plugin: String = "1.1.0"
 
-    const val kotlin_android_extensions: String = "1.3.11"
-
-    const val kotlin_annotation_processing_gradle: String = "1.3.11"
-
-    const val kotlin_gradle_plugin: String = "1.3.11"
-
-    const val kotlin_reflect: String = "1.3.11"
-
-    const val kotlin_sam_with_receiver: String = "1.3.11"
-
-    const val kotlin_scripting_compiler_embeddable: String = "1.3.11"
-
-    const val org_jetbrains_kotlin_kotlin_stdlib_jdk8: String = "1.3.11"
+    const val org_jetbrains_kotlin: String = "1.3.11" 
 
     /**
      *
@@ -43,12 +31,12 @@ object Versions {
      *      ./gradle/wrapper/gradle-wrapper.properties
      */
     object Gradle {
-        const val runningVersion: String = "5.1-rc-2"
+        const val runningVersion: String = "5.1-rc-3"
 
         const val currentVersion: String = "5.0"
 
-        const val nightlyVersion: String = "5.2-20181221000038+0000"
+        const val nightlyVersion: String = "5.2-20181227000038+0000"
 
-        const val releaseCandidate: String = "5.1-rc-2"
+        const val releaseCandidate: String = "5.1-rc-3"
     }
 }
