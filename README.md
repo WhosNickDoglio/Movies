@@ -1,7 +1,8 @@
-# Movies MV* (WIP 🔨🔨🔨🔨🔨)
+# Movies MV* 
 
-WIP in progress project that shows a small movies app with a few different MV* patterns.
+# No longer actively being developed
 
+The project was initially planned to be used to explore different MV* patterns implementing the same screens, due to other projects and work getting in the way development has stalled completely. As of right now there are no plans for further development. 
 
 
 
